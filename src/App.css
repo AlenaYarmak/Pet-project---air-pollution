@@ -129,7 +129,7 @@ transition: 0.3s;
   right: 10%;
   top: -20%;
   z-index: 1;
-  /* background: url(img/Rectangle\ 3.png); */
+  background: url(../src/img/Rectangle.png);
   height: 636px;
   width: 348px;
 }
@@ -159,7 +159,7 @@ transition: 0.3s;
 
 .submit-btn::before {
   content: "";
-  /* background: url(img/akar-icons_search.png); */
+  background: url(../src/img/icons_search.png);
   position: absolute;
   width: 21px;
   height: 21px;
