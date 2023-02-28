@@ -18,7 +18,7 @@
   }
 }
 
-.head__inner {
+/* .head__inner {
   display: flex;
   align-items: center;
   height: 638px;
@@ -146,9 +146,9 @@ transition: 0.3s;
   font-size: 0.9em;
   font-weight: 700;
   transition: 0.5s;
-}
+} */
 
-.main {
+/* .main {
   margin-top: 30px;
 }
 
@@ -211,9 +211,7 @@ transition: 0.3s;
 }
 
 .main__card {
-  /* margin-top: 50px; */
   padding: 25px;
-  /* flex: 0 0 calc(25% - 20px); */
   height: 100px;
   border-radius: 24px;
   background-image: linear-gradient(145deg, #e9edf2, #ecd6da);
@@ -231,5 +229,5 @@ transition: 0.3s;
 
 .main__card__title {
   padding-bottom: 5px;
-}
+} */
 

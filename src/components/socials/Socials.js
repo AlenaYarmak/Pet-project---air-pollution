@@ -1,6 +1,6 @@
 function Socials() {
     return(
-        <section class="socials">
+        <section className="socials">
         <div className="social__item">
 
         </div>

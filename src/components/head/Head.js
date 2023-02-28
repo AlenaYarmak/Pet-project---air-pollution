@@ -3,6 +3,8 @@ import airPollutionSecond from '../../img/air-pollution(2).png';
 import airPollutionThird from '../../img/air-pollution(3).png';
 import airPollutionFourth from '../../img/air-pollution(4).png';
 
+import './head.scss';
+
 function Head() {
     return (
     <section className="head">
