@@ -76,6 +76,8 @@
     top: -20%;
     z-index: 1;
     background: url('../../img/rectangle.png');
+    background-repeat: no-repeat;
+    background-size: contain;
     height: 636px;
     width: 348px;
   }
@@ -101,60 +103,3 @@
     width: 100px;
   }
 }
-
-/* Media */
-@media (max-width: 1200px) {
-  .container {
-    padding: 20px 50px;
-  }
-  .head__background {
-    width: 320px;
-    right: 3%;
-  }
-  .head__card {
-    width: 170px;
-  }
-}
-@media (max-width: 992px) {
-  .container {
-    padding: 20px 20px;
-  }
-  .head__background {
-    width: 270px;
-    right: 0;
-  }
-  .head__title {
-    font-size: 2.4em;
-    line-height: 1.5;
-    padding-right: 50px;
-  }
-  .head__cards {
-    max-width: 320px;
-  }
-  .head__card {
-    width: 140px;
-  }
-  .card__text {
-    font-size: 0.8em;
-  }
-}
-@media (max-width: 768px) {
-  .container {
-    padding: 20px 10px;
-  }
-  .head__card {
-    display: none;
-  }
-  .head__inner {
-    position: relative;
-  }
-  .head__title {
-    position: absolute;
-    left: 25%;
-  }
-  .head__content {
-    position: absolute;
-    right: 0;
-  }
-}
-
