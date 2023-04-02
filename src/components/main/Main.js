@@ -22,7 +22,6 @@ class Main extends Component {
     onSubmit = async (e) => {
         e.preventDefault();
         let city = this.state.city;
-        console.log(city);
         let response = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=1&appid=8721d7d2dcb86748b2395c4ff7b1a3cf`);
             let jsonData = await response.json();
             let data = {
@@ -43,14 +42,11 @@ class Main extends Component {
                 components: jsonData.list[0].components,
                 airQualityLevel: jsonData.list[0].main.aqi
             })
-            /* console.log(city); */
     }
 
     render() {
 
         let nameCity = this.state.city;
-        console.log(this.state);
-        console.log(this.state.city);
         let components = this.state.components;
         let airQualityLevel = this.state.airQualityLevel;
         let description = '';
