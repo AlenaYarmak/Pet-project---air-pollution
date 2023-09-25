@@ -1,10 +1,10 @@
 .head {
-  &__inner {
+  &-inner {
     display: flex;
     align-items: center;
     height: 638px;
   }
-  &__title {
+  &-title {
     flex-basis: 50%;
     align-items: center;
     max-height: 320px;
@@ -28,17 +28,17 @@
         }
       }
   }
-  &__text {
+  &-text {
     padding-top: 40px;
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
   }
-  &__content {
+  &-content {
     position: relative;
     flex-basis: 50%;
   }
-  &__cards {
+  &-cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -46,7 +46,7 @@
     height: 480px;
     max-width: 382px;
   }
-  &__card {
+  &-card {
     position: relative;
     width: 180px;
     height: 200px;
@@ -58,19 +58,19 @@
       box-shadow: 0.2em 0.2em 1.5em #092E5A;
     }
   }
-  &__card:first-child {
+  &-card:first-child {
     background-image: linear-gradient(145deg, #092E5A, #E87A90);
   }
-  &__card:nth-child(2) {
+  &-card:nth-child(2) {
     background-image: linear-gradient(145deg, #FA8607, #FECC51);
   }
-  &__card:nth-child(3) {
+  &-card:nth-child(3) {
     background-image: linear-gradient(145deg, #22C1C3, #FDBB2D);
   }
-  &__card:last-child {
+  &-card:last-child {
     background-image: linear-gradient(145deg, #6190E8, #A7BFE8);
   }
-  &__background {
+  &-background {
     position: absolute;
     right: 10%;
     top: -20%;
@@ -84,7 +84,7 @@
 }
 
 .card {
-  &__text {
+  &-text {
     font-family: 'Poppins', sans-serif;
     font-size: 0.9em;
     font-weight: 300;
@@ -95,7 +95,7 @@
     padding: 0px 15px;
     color: #fff;
   }
-  &__image {
+  &-image {
     position: absolute;
     top: 0;
     left: 50%;

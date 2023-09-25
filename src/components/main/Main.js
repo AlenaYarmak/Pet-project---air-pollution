@@ -53,46 +53,46 @@ class Main extends Component {
         let cards = [];
 
         for (let [key, value] of Object.entries(components)) {
-            cards.push(<div className="main__card">
-            <div className="main__card__title">{key}</div>
-            <div className="main__card__value">{value}</div>
+            cards.push(<div className="main-card">
+            <div className="main-card-title">{key}</div>
+            <div className="main-card-value">{value}</div>
             </div>);
         }
 
         if (airQualityLevel === 1) {
-            description = <div className="main__response">
-            <p className="main__response-txt">The level of air quality in {nameCity} is </p> <p className="main__response-txt">{airQualityLevel}.</p> <p className="main__response-txt">It's mean the level of air quality is good. Composition of air:</p>
+            description = <div className="main-response">
+            <p className="main-response-txt">The level of air quality in {nameCity} is </p> <p className="main-response-txt">{airQualityLevel}.</p> <p className="main-response-txt">It's mean the level of air quality is good. Composition of air:</p>
         </div>
         } 
         if (airQualityLevel === 2) {
-            description = <div className="main__response">
-            <p className="main__response-txt">The level of air quality in {nameCity} is </p> <p className="main__response-txt">{airQualityLevel}.</p> <p className="main__response-txt">It's mean the level of air quality is fair. Composition of air:</p>
+            description = <div className="main-response">
+            <p className="main-response-txt">The level of air quality in {nameCity} is </p> <p className="main-response-txt">{airQualityLevel}.</p> <p className="main-response-txt">It's mean the level of air quality is fair. Composition of air:</p>
         </div>
         }
         if (airQualityLevel === 3) {
-            description = <div className="main__response">
-            <p className="main__response-txt">The level of air quality in {nameCity} is </p> <p className="main__response-txt">{airQualityLevel}.</p> <p className="main__response-txt">It's mean the level of air quality is moderate. Composition of air:</p>
+            description = <div className="main-response">
+            <p className="main-response-txt">The level of air quality in {nameCity} is </p> <p className="main-response-txt">{airQualityLevel}.</p> <p className="main-response-txt">It's mean the level of air quality is moderate. Composition of air:</p>
         </div>
         }
         if (airQualityLevel === 4) {
-            description = <div className="main__response">
-            <p className="main__response-txt">The level of air quality in {nameCity} is </p> <p className="main__response-txt">{airQualityLevel}.</p> <p className="main__response-txt">It's mean the level of air quality is poor. Composition of air:</p>
+            description = <div className="main-response">
+            <p className="main-response-txt">The level of air quality in {nameCity} is </p> <p className="main-response-txt">{airQualityLevel}.</p> <p className="main-response-txt">It's mean the level of air quality is poor. Composition of air:</p>
         </div>
         }
         if (airQualityLevel === 5) {
-            description = <div className="main__response">
-            <p className="main__response-txt">The level of air quality in {nameCity} is </p> <p className="main__response-txt">{airQualityLevel}.</p> <p className="main__response-txt">It's mean the level of air quality is very poor. Composition of air:</p>
+            description = <div className="main-response">
+            <p className="main-response-txt">The level of air quality in {nameCity} is </p> <p className="main-response-txt">{airQualityLevel}.</p> <p className="main-response-txt">It's mean the level of air quality is very poor. Composition of air:</p>
         </div>
         }
         
         return(
             <section className="main">
-                <form onSubmit={this.onSubmit} className="main__form">
+                <form onSubmit={this.onSubmit} className="main-form">
                     <input onChange={this.onChangeValue} className="main-inp" type="text" value= {this.state.city}></input>
                     <button className="submit-btn" type="submit">Check your city</button>
                 </form>
                 {description}
-                <div className="main__cards">
+                <div className="main-cards">
                     {cards}
                 </div>
         </section>

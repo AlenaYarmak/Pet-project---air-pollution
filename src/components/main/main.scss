@@ -1,6 +1,6 @@
 .main {
     margin-top: 30px;
-    &__form {
+    &-form {
         display: flex;
         justify-content: center;
     }
@@ -21,7 +21,7 @@
             box-shadow: 0.1em 0.2em 0.7em #092E5A;
           }
       }
-    &__response {
+    &-response {
         display: flex;
         justify-content: center;
         font-family: 'Poppins', sans-serif;
@@ -31,12 +31,12 @@
             padding-right: 6px;
         }
       }
-    &__cards {
+    &-cards {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
     }
-    &__card {
+    &-card {
         padding: 25px;
         height: 100px;
         border-radius: 24px;
@@ -50,7 +50,7 @@
         &:hover {
             box-shadow: 0.2em 0.2em 1.5em #092E5A;
         }
-        &__title {
+        &-title {
             padding-bottom: 5px;
         }
     }
