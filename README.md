@@ -5,7 +5,18 @@ Web application that takes the name of the city from the user and returns data o
 
 ![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmVkYWU0ODYyOWJlZGNkNjRmOTRiZDJlODY0MTc5YWRhOTczMGQwMSZjdD1n/Br99SNJdFF20UgdiJB/giphy.gif)
 
+## Install
 
+To install run the followings commands
+
+```bash
+  npm install
+```
+and then
+
+```bash
+  npm start
+```
 
 ## Technologies used
 
