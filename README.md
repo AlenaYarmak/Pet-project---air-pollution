@@ -26,4 +26,4 @@ and then
 - Air pollution API
 ## Responsive Design
 
-![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGRvdHJhbWU1dWtna2d4eGttaDYxYWRuNHJlY3VlOHUxZzMxcGNlYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LGc1ghnh4BnmRotxKb/giphy-downsized-large.gif)
+![Alt Text](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdWxpenR3a3pqdmFocDRjdmxjb216azJmOXV5NWgzYWMzZTJnOGU0ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zzH37yIm1DV0vdKN0E/giphy.gif)
