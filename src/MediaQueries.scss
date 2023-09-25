@@ -2,11 +2,11 @@
     .container {
       padding: 20px 50px;
     }
-    .head__background {
+    .head-background {
       width: 320px;
       right: 3%;
     }
-    .head__card {
+    .head-card {
       width: 170px;
     }
   }
@@ -15,23 +15,23 @@
       padding: 20px 20px;
     } */
     .head {
-      &__background {
+      &-background {
         width: 270px;
         right: 0;
       }
-      &__title {
+      &-title {
         font-size: 2.4em;
         line-height: 1.5;
         padding-right: 50px;
       }
-      &__cards {
+      &-cards {
         max-width: 320px;
       }
-      &__card {
+      &-card {
         width: 140px;
       }
     }
-    .card__text {
+    .card-text {
       font-size: 0.8em;
     }
   }
@@ -40,13 +40,13 @@
       padding: 20px 10px;
     }
     .head {
-      &__card {
+      &-card {
         display: none;
       }
-      &__inner {
+      &-inner {
         position: relative;
       }
-      &__title {
+      &-title {
         position: absolute;
         padding-right: 0;
         left: 25%;
@@ -57,14 +57,14 @@
           padding-bottom: 0;
         }
       }
-      &__content {
+      &-content {
         position: absolute;
         right: 0;
       }
-      &__background {
+      &-background {
         display: none;
       }
-      &__inner {
+      &-inner {
         background: linear-gradient(to right, #fac9cd 0%, #fae5c7 100%);
         border-radius: 24px;
       }
@@ -87,13 +87,13 @@
         padding: 15px;
     }
     .head {
-       &__inner {
+       &-inner {
         height: 440px;
       }
-      &__title {
+      &-title {
         font-size: 1.7em;
       }
-      &__text {
+      &-text {
         font-size: 0.6em;
         line-height: 1.2em;
       }
