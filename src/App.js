@@ -1,6 +1,7 @@
 import Head from './components/head/Head';
 import Main from './components/main/Main';
 import Socials from './components/socials/Socials';
+import Info from './components/info/Info';
 
 import './App.css';
 import './MediaQueries.scss';
@@ -12,6 +13,7 @@ function App() {
         <Head></Head>
         <Main></Main>
         <Socials></Socials>
+        <Info></Info>
       </div>
     </div>
   );
