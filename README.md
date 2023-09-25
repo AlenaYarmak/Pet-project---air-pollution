@@ -7,7 +7,7 @@ Web application that takes the name of the city from the user and returns data o
 
 ## Install
 
-To install run the followings commands
+To install run the following commands
 
 ```bash
   npm install
